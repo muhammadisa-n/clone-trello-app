@@ -1,0 +1,37 @@
+.add-list {
+  width: 272px;
+  margin: 10px;
+  flex-shrink: 0;
+}
+.add-list-button {
+  background-color: rgba(0, 0, 0, 0.12);
+  border-radius: 5px;
+  cursor: pointer;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  min-height: 32px;
+  padding: 5px 10px;
+  transition: background-color 85ms ease-in, opacity 40ms ease-in,
+    border-color 85ms ease-in;
+  height: fit-content;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  -webkit-transition: background-color 85ms ease-in, opacity 40ms ease-in,
+    border-color 85ms ease-in;
+  -moz-transition: background-color 85ms ease-in, opacity 40ms ease-in,
+    border-color 85ms ease-in;
+  -ms-transition: background-color 85ms ease-in, opacity 40ms ease-in,
+    border-color 85ms ease-in;
+  -o-transition: background-color 85ms ease-in, opacity 40ms ease-in,
+    border-color 85ms ease-in;
+}
+.add-list-button:hover {
+  background-color: rgba(0, 0, 0, 0.24);
+}
+
+.add-list-button ion-icon {
+  margin-right: 1px;
+}
