@@ -1,3 +1,3 @@
 export const config = {
-  api_host: process.env.REACT_APP_BASE_URL_API,
+  api_host: "http://172.19.57.178:5000/api/v1/",
 }
