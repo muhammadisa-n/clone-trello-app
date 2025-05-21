@@ -1,3 +1,3 @@
 export const config = {
-  api_host: "http://172.19.57.178:5000/api/v1/",
-}
+  api_host: "http://localhost:3002/be-trello/api/",
+};

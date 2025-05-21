@@ -28,7 +28,7 @@ const HomePage = () => {
   }, [])
   return (
     <>
-      <Header>MERN Clone Trello App</Header>
+      <Header>Clone Trello App</Header>
       <Board>
         <Card todos={todos} getTodosApi={() => getTodosApi()} />
         <div className="add-list">
