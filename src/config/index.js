@@ -1,3 +1,3 @@
 export const config = {
-  api_host: "http://localhost:3002/be-trello/api/",
+  api_host: process.env.REACT_APP_API_HOST,
 };
